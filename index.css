@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+.conteiner{
+    background-color: #FFCC01;
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div-pokemons{
+    width: auto;
+    height: auto;
+    background-color: #375DAB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 10px;
+}
+
+.div-form{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+form{
+    padding: 0;
+}
+
+.renderConteiner{
+    width: auto;
+    height: auto;
+}
+
+.pokemon-img{
+    width: 200px;
+    height: 200px;
+}
+
+p{
+    color: white;
+}
